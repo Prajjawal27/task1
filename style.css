@@ -1,0 +1,33 @@
+/* style.css */
+
+/* Add styling to the body element */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #3899b4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the heading */
+h1 {
+    color: #d82f2f;
+    margin-top: 20px;
+}
+
+/* Style the paragraph with dynamic data */
+p {
+    font-size: 18px;
+    color: #3621d5;
+}
+
+/* Style the dynamic data text */
+#dynamic-data {
+    font-weight: bold;
+    color: #be1697; /* Blue color */
+}
+
+/* Add some spacing to the bottom */
+p:last-child {
+    margin-bottom: 20px;
+}
